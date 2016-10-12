@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57AD5A381DAE241300B398C5 /* VXSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AD5A361DAE241300B398C5 /* VXSegmentView.swift */; };
+		57AD5A391DAE241300B398C5 /* VXSegmentViewCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AD5A371DAE241300B398C5 /* VXSegmentViewCollectionCell.swift */; };
 		5B073C271D9EB4450031733D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B073C261D9EB4450031733D /* AppDelegate.swift */; };
 		5B073C291D9EB4450031733D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B073C281D9EB4450031733D /* ViewController.swift */; };
 		5B073C2C1D9EB4450031733D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B073C2A1D9EB4450031733D /* Main.storyboard */; };
@@ -15,6 +17,9 @@
 		5B073C341D9EB4450031733D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B073C321D9EB4450031733D /* LaunchScreen.storyboard */; };
 		5B073C3F1D9EB4450031733D /* VXSegmentedPagerExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B073C3E1D9EB4450031733D /* VXSegmentedPagerExampleTests.swift */; };
 		5B073C4A1D9EB4460031733D /* VXSegmentedPagerExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B073C491D9EB4460031733D /* VXSegmentedPagerExampleUITests.swift */; };
+		5BE4AD021D9EE5F900F1856F /* VXSegmentedPagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE4ACFC1D9EE5F900F1856F /* VXSegmentedPagerController.swift */; };
+		5BE4AD031D9EE5F900F1856F /* VXSegmentedPagerHorizController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE4ACFD1D9EE5F900F1856F /* VXSegmentedPagerHorizController.swift */; };
+		784E8BD17548BD69F03DFB54 /* Pods_VXSegmentedPagerExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AB3679E1FF1F16C65D7898 /* Pods_VXSegmentedPagerExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3180407C7948F5DF6FDD70A8 /* Pods-VXSegmentedPagerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VXSegmentedPagerExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-VXSegmentedPagerExample/Pods-VXSegmentedPagerExample.release.xcconfig"; sourceTree = "<group>"; };
+		56AB3679E1FF1F16C65D7898 /* Pods_VXSegmentedPagerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VXSegmentedPagerExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57AD5A361DAE241300B398C5 /* VXSegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VXSegmentView.swift; sourceTree = "<group>"; };
+		57AD5A371DAE241300B398C5 /* VXSegmentViewCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VXSegmentViewCollectionCell.swift; sourceTree = "<group>"; };
 		5B073C231D9EB4450031733D /* VXSegmentedPagerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VXSegmentedPagerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B073C261D9EB4450031733D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B073C281D9EB4450031733D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		5B073C451D9EB4460031733D /* VXSegmentedPagerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VXSegmentedPagerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B073C491D9EB4460031733D /* VXSegmentedPagerExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VXSegmentedPagerExampleUITests.swift; sourceTree = "<group>"; };
 		5B073C4B1D9EB4460031733D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE4ACFC1D9EE5F900F1856F /* VXSegmentedPagerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VXSegmentedPagerController.swift; sourceTree = "<group>"; };
+		5BE4ACFD1D9EE5F900F1856F /* VXSegmentedPagerHorizController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VXSegmentedPagerHorizController.swift; sourceTree = "<group>"; };
+		E2DAD53F91E13024BFDF4101 /* Pods-VXSegmentedPagerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VXSegmentedPagerExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VXSegmentedPagerExample/Pods-VXSegmentedPagerExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				784E8BD17548BD69F03DFB54 /* Pods_VXSegmentedPagerExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F7A9B7C7B4E323E209D3520 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2DAD53F91E13024BFDF4101 /* Pods-VXSegmentedPagerExample.debug.xcconfig */,
+				3180407C7948F5DF6FDD70A8 /* Pods-VXSegmentedPagerExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5B073C1A1D9EB4450031733D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +105,8 @@
 				5B073C3D1D9EB4450031733D /* VXSegmentedPagerExampleTests */,
 				5B073C481D9EB4460031733D /* VXSegmentedPagerExampleUITests */,
 				5B073C241D9EB4450031733D /* Products */,
+				1F7A9B7C7B4E323E209D3520 /* Pods */,
+				87C0CA78FA3F987C366B98F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +123,7 @@
 		5B073C251D9EB4450031733D /* VXSegmentedPagerExample */ = {
 			isa = PBXGroup;
 			children = (
+				5BE4ACF61D9EE5F900F1856F /* VXSegmentedPager */,
 				5B073C261D9EB4450031733D /* AppDelegate.swift */,
 				5B073C281D9EB4450031733D /* ViewController.swift */,
 				5B073C2A1D9EB4450031733D /* Main.storyboard */,
@@ -128,6 +153,25 @@
 			path = VXSegmentedPagerExampleUITests;
 			sourceTree = "<group>";
 		};
+		5BE4ACF61D9EE5F900F1856F /* VXSegmentedPager */ = {
+			isa = PBXGroup;
+			children = (
+				5BE4ACFC1D9EE5F900F1856F /* VXSegmentedPagerController.swift */,
+				5BE4ACFD1D9EE5F900F1856F /* VXSegmentedPagerHorizController.swift */,
+				57AD5A361DAE241300B398C5 /* VXSegmentView.swift */,
+				57AD5A371DAE241300B398C5 /* VXSegmentViewCollectionCell.swift */,
+			);
+			path = VXSegmentedPager;
+			sourceTree = "<group>";
+		};
+		87C0CA78FA3F987C366B98F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56AB3679E1FF1F16C65D7898 /* Pods_VXSegmentedPagerExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B073C4E1D9EB4460031733D /* Build configuration list for PBXNativeTarget "VXSegmentedPagerExample" */;
 			buildPhases = (
+				09277F0E5E587A3C64918D4B /* [CP] Check Pods Manifest.lock */,
 				5B073C1F1D9EB4450031733D /* Sources */,
 				5B073C201D9EB4450031733D /* Frameworks */,
 				5B073C211D9EB4450031733D /* Resources */,
+				02C26CB0412B8872C7FB60DB /* [CP] Embed Pods Frameworks */,
+				9A07B885DA23305DD293B1C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -190,6 +237,7 @@
 		5B073C1B1D9EB4450031733D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = VX;
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = voidxin;
@@ -254,12 +302,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02C26CB0412B8872C7FB60DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VXSegmentedPagerExample/Pods-VXSegmentedPagerExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		09277F0E5E587A3C64918D4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A07B885DA23305DD293B1C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VXSegmentedPagerExample/Pods-VXSegmentedPagerExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B073C1F1D9EB4450031733D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57AD5A381DAE241300B398C5 /* VXSegmentView.swift in Sources */,
 				5B073C291D9EB4450031733D /* ViewController.swift in Sources */,
+				57AD5A391DAE241300B398C5 /* VXSegmentViewCollectionCell.swift in Sources */,
+				5BE4AD031D9EE5F900F1856F /* VXSegmentedPagerHorizController.swift in Sources */,
+				5BE4AD021D9EE5F900F1856F /* VXSegmentedPagerController.swift in Sources */,
 				5B073C271D9EB4450031733D /* AppDelegate.swift in Sources */,
 				5B073C2F1D9EB4450031733D /* VXSegmentedPagerExample.xcdatamodeld in Sources */,
 			);
@@ -401,9 +501,16 @@
 		};
 		5B073C4F1D9EB4460031733D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2DAD53F91E13024BFDF4101 /* Pods-VXSegmentedPagerExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SnapKit\"",
+					"\"$(SRCROOT)/Pods/Pods.xcodeproj\"",
+				);
 				INFOPLIST_FILE = VXSegmentedPagerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.voidxin.VXSegmentedPagerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,9 +519,16 @@
 		};
 		5B073C501D9EB4460031733D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3180407C7948F5DF6FDD70A8 /* Pods-VXSegmentedPagerExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SnapKit\"",
+					"\"$(SRCROOT)/Pods/Pods.xcodeproj\"",
+				);
 				INFOPLIST_FILE = VXSegmentedPagerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.voidxin.VXSegmentedPagerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -486,6 +600,7 @@
 				5B073C501D9EB4460031733D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B073C511D9EB4460031733D /* Build configuration list for PBXNativeTarget "VXSegmentedPagerExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +609,7 @@
 				5B073C531D9EB4460031733D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B073C541D9EB4460031733D /* Build configuration list for PBXNativeTarget "VXSegmentedPagerExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +618,7 @@
 				5B073C561D9EB4460031733D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
